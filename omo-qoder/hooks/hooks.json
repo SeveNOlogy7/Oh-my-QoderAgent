@@ -1,0 +1,17 @@
+{
+  "description": "OMO for Qoder keyword gate (opt-in per project; no-op by default)",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}\"/hooks/keyword-gate.mjs",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

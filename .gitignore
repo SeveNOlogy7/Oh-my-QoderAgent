@@ -1,0 +1,7 @@
+.omq/
+.qoder-test/
+node_modules/
+.codegraph/
+*.log
+.DS_Store
+Thumbs.db

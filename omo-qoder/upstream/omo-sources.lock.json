@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-27",
+  "policy": "capability parity; no source transplantation; selective sync against public protocols and observed behavior",
+  "upstream": {
+    "name": "oh-my-openagent",
+    "repo": "code-yeongyu/oh-my-openagent",
+    "tag": "v4.19.4",
+    "commit": "b072d279110bdda2c6ac2525d0d24dc54d16148a",
+    "releasedAt": "2026-08-01T09:50:16Z",
+    "license": "Sustainable Use License 1.0"
+  },
+  "target": {
+    "name": "omo-qoder",
+    "pluginId": "omo-qoder",
+    "version": "1.1.0",
+    "host": "Qoder CLI (qodercn 1.1.78+)"
+  },
+  "sourceState": {
+    "mode": "selective",
+    "wholeRepoFork": false,
+    "directMerge": false,
+    "notes": "Protocols are re-derived. Upstream paths that do not apply to Qoder are listed in docs/PARITY.md."
+  }
+}

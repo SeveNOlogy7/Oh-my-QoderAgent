@@ -1,0 +1,25 @@
+{
+  "name": "omo-qoder",
+  "version": "1.1.0",
+  "description": "OMO-style multi-agent orchestration for Qoder: 9 role agents, 5 commands, 4 core skills, and optional orchestration/graph/dashboard profiles.",
+  "author": {
+    "name": "Loren"
+  },
+  "license": "MIT",
+  "keywords": [
+    "qoder",
+    "plugin",
+    "omo",
+    "oh-my-openagent",
+    "multi-agent",
+    "orchestration"
+  ],
+  "commands": "./commands/",
+  "skills": [
+    "./skills/ulw-plan/",
+    "./skills/ulw-execute/",
+    "./skills/ulw-research/",
+    "./skills/review-work/"
+  ],
+  "mcpServers": "./.mcp.json"
+}

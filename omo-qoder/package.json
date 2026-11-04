@@ -1,0 +1,18 @@
+{
+  "name": "omo-qoder",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "OMO-style multi-agent orchestration for Qoder",
+  "scripts": {
+    "test": "node --test",
+    "doctor": "node tools/omo-doctor.mjs",
+    "validate": "qodercn plugins validate . --strict",
+    "test:isolated": "node scripts/isolated-harness.mjs",
+    "test:dashboard": "node scripts/dashboard-smoke.mjs",
+    "test:e2e": "node scripts/e2e-isolated.mjs",
+    "coordinator": "node mcp/coordinator/server.mjs",
+    "dashboard": "node dashboard/server.mjs",
+    "profile": "node tools/omo-profile.mjs"
+  }
+}

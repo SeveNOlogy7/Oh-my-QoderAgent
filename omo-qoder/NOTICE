@@ -1,0 +1,15 @@
+OMO for Qoder (omo-qoder)
+Copyright (c) 2026 Loren
+
+This project is an independent capability port of oh-my-openagent (OmO) v4.19.4
+for Qoder.
+
+Upstream: https://github.com/code-yeongyu/oh-my-openagent
+Upstream tag: v4.19.4
+Upstream commit: b072d279110bdda2c6ac2525d0d24dc54d16148a
+Upstream license: Sustainable Use License 1.0 (not an OSI license)
+
+No upstream source code is copied into this repository. The port re-derives
+protocols from public documentation and observed behavior. The capability
+mapping, gaps, and selective-sync policy are recorded in docs/PARITY.md and
+upstream/omo-sources.lock.json.
